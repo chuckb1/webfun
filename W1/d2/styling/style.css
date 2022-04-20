@@ -1,0 +1,37 @@
+body {
+    font-family: courier;
+}
+
+#line1 {
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#span1 {
+    color: white;
+}
+
+#span2 {
+    color: lightblue;   
+}
+
+#line2 {
+    background-color: blueviolet;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#line3 {
+    background-color: lightblue;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
