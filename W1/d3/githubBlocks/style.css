@@ -1,7 +1,46 @@
 .container {
 
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    flex-direction: column;
 }
 
-img.octocat {
+.octocat {
     height: 200px;
+    width: 200px;
+}
+
+.octocat-1 {
+    width: 220px;
+    height: 220px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.row-1 {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin: 10px;
+}
+
+.row-2 {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin: 10px;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 680px;
 }
