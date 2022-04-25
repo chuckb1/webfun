@@ -1,0 +1,46 @@
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 960px;
+    background-color: gray;
+    margin: 20px;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+.nav-title { 
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    margin:auto;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    width:auto;
+    height: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav a:hover {
+    background-color: purple;
+    color: black;
+}
+.active {
+    font-weight: 200;
+}
+
+.btn {
+
+}
