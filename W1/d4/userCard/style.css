@@ -1,0 +1,64 @@
+.userCard {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    /* height:700px; */
+    width: 60%;
+    border: solid 2px grey;
+    margin: 7px;
+    padding: 5px;
+}
+.top {
+    background-color: rgb(51, 151, 197);
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.top > img {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 36px;
+    margin: 5px;
+}
+
+.where {
+    display: flex;  
+    flex-direction: row;  
+    align-items: center;
+    padding-left: 8px;
+    margin: 7px;
+}
+.where > img {
+    margin-right: 15px;
+    height: 25px;
+
+}
+.where h3 {
+
+}
+
+.words {
+    font-size: 20px;
+    margin: 7px;
+}
+    
+.gear {
+    display: flex;  
+    flex-direction: row;  
+    align-items: center;
+    margin: 7px;
+}
+.gear img {
+    margin-right: 15px;
+}
+div{
+    outline: 2px solid red;
+}
