@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Search Bar -->
+    <div class="searchBar"
+        <h1>Dojonary</h1>
+        <input class="searchBox" type="text">
+        <button class =loginButton onclick="replaceLogin(this)">Login</button>
+    </div>
+    <div class="container">
+        <!-- Column 1 -->
+        <div class="col1">
+            <!-- Large Box 1 -->
+            <div class="largeBox">
+                <div class="boxCol1">
+                    <h3>ninja</h3>
+                    <h4>noun</h4>
+                    <p>Plural: <span class ="italic">ninjas</span></p>
+                    <button class="likeButton" onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class=boxCol2>
+                    <p>A practitioner skilled in the <span><a href "#" alt="Link to Japanese Culture">Japanese</a></span> 
+                        art of <span><a href "#" alt="Link to Ninjutsu Stuff">Ninjutsu</a></span></p>
+                </div>
+            </div>
+            <!-- Large Box 2 -->
+            <div class="largeBox">
+                <div class="boxCol1">
+                    <h3>ninja</h3>
+                    <h4>noun</h4>
+                    <p>Plural: <span class ="italic">ninjas</span></p>
+                    <button class="likeButton" onclick="alert('Ninja was liked')">37 Likes</button>
+                </div>
+                <div class=boxCol2>
+                    <p>A <span><a href "#" alt="Link to programmer stuff">Programmer</a>
+                    </span> who breaks down problems with <span><a href "#" alt="Link to zen stuff">zen</a></span>
+                    -like focus</p>
+                </div>
+            </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="col2">
+            <!-- Small Box -->
+            <div class="smallBox">
+                <p>Dojonary is defined by <span class="bold">YOU</span></p>
+                <button class="defButton" onclick="defButtonGone(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
